@@ -31,13 +31,18 @@ class EventDemo extends React.Component {
   }
 
     render() {
+      const {
+          simpleReducer: {
+              result,
+          }
+      } = this.props
       return (
        <div>
          <div>
          This is my newName: {this.state.newName}
          </div>
          <div>
-         This is my reduxName: {this.props.simpleReducer.reduxName}
+         This is my reduxName: {result && result.myName}
          </div>
          <div>
            This is a counter: {this.state.count}
@@ -70,7 +75,7 @@ class EventDemo extends React.Component {
    })
 
 const mapDispatchToProps = dispatch => ({
-  simpleAction: () => dispatch(simpleAction())
+   simpleAction: () => dispatch(simpleAction())
  })
 
  export default connect(mapStateToProps, mapDispatchToProps)(EventDemo);

@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="6996f93b-e2a7-4703-b334-1ad77574cae8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/button-events/EventDemo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/button-events/EventDemo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions/simpleAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/simpleAction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/simpleReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/simpleReducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +22,7 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectId" id="1TQaWRNHSqsF3S3FezgFT7f8r0x" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
@@ -62,14 +65,23 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8e7c1a87-debd-4d54-b0e0-20370823953f" name="Default Changelist" comment="" />
+      <changelist id="6996f93b-e2a7-4703-b334-1ad77574cae8" name="Default Changelist" comment="" />
       <created>1549778201099</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549778201099</updated>
       <workItem from="1549778208309" duration="22000" />
       <workItem from="1555803145091" duration="817000" />
+      <workItem from="1573394810813" duration="5521000" />
     </task>
+    <task id="LOCAL-00001" summary="set up">
+      <created>1573354029910</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573354029911</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,10 +92,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="set up" />
+    <option name="LAST_COMMIT_MESSAGE" value="set up" />
   </component>
 </project>

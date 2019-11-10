@@ -6,8 +6,12 @@ import Nav from './nav/Nav';
 import './App.css';
 
 class App extends Component {
-  render() {
-    console.log(this.props);
+    constructor(props) {
+        super(props);
+        console.log("load ctor");
+    }
+
+    render() {
     return (
 
       <div className="App">
@@ -18,6 +22,9 @@ class App extends Component {
       </div>
     );
   }
+    componentDidMount() {
+        console.log("component did mount")
+    }
 }
 
 const mapStateToProps = state => ({
